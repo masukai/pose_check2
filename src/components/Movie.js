@@ -22,7 +22,7 @@ export default class Show extends Component {
         <Box>
           <Typography variant='body1' align='center'>
             <br />
-            <strong>日本サッカー代表・OO選手のシュート動画!</strong>
+            <strong>日本サッカー代表・OO選手のシュート動画!(0.75倍速)</strong>
             <br />
             このように骨格推定で姿勢を確認できるよ!
           </Typography>
@@ -34,7 +34,10 @@ export default class Show extends Component {
             playing
             loop
             controls
+            muted
+            playbackRate='0.75'
             width='450px'
+            playsinline
           />
         </Box>
         <Box>
