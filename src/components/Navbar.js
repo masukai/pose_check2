@@ -26,7 +26,9 @@ const Navbar = () => {
         style={{ alignItems: 'center' }}
       >
         <Box display='flex' justifyContent='center' p={1}>
-          <Typography variant='h4'>Glico Pose Check</Typography>
+          <Typography variant='h4'>
+            <strong>Glico Pose Check</strong>
+          </Typography>
         </Box>
         <Box>
           <TwitterShareButton
